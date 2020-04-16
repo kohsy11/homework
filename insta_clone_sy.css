@@ -1,0 +1,229 @@
+body {
+    background-color: #fafafa;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+#a {
+    font-size: 14px;
+    font-weight: 400;
+}
+#a2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+#psmall {
+    font-size: 11px;
+}
+#profile_id {
+    font-size: 28px;
+    font-weight: 300;
+}
+#searchbar {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 13px;
+    margin: 0;
+}
+.top {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1020px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid lightgray;
+}
+.logo {
+    align-items: center;
+    justify-content: start;
+    width: 38%;
+}
+.search {
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    height: 28px;
+    width: 28%;
+}
+.gray_box1 {
+    background-color: #fafafa;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+.search_w {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top_right {
+    display: flex;
+    justify-content: flex-end;
+    width: 38%;
+
+}
+.nav_bar {
+    width: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one {
+    width: 975px;
+    height: 200px;
+    padding-top: 3%;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.one_one {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+.profile_pic {
+}
+.one_two {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+.one_two_one {
+    height: 30%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.gray_box2 {
+    width: 120%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 3px;
+    border: 1px solid lightgray;
+}
+.setting {
+    margin-left: 15px;
+    display: flex;
+    align-items: baseline;
+}
+.one_two_two {
+    height: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.one_two_three {
+    height: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.two {
+    width: 975px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.m {
+    padding-left: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.m_1 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.three {
+    width: 975px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.select {
+    width: 60px;
+    height: 1px;
+    background-color: black;
+    position: relative;
+    top: -28px;
+    left: 70px;
+}
+.menu_e {
+    width: 6%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.four {
+    width: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.feed_line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+.feed_pic {
+    margin: 10px;
+    width: 33.33%;
+}
+.footer {
+    width: 995px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+#foot {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: darkblue;
+    margin-right: 10px;
+}
+
